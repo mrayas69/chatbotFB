@@ -4,7 +4,7 @@
  *
  * This source code is licensed under the license found in the
  * LICENSE file in the root directory of this source tree.
- *
+ * 06/12/2016
  */
 
 /* jshint node: true, devel: true */
@@ -38,12 +38,12 @@ const APP_SECRET = (process.env.MESSENGER_APP_SECRET) ?
 // Arbitrary value used to validate a webhook
 const VALIDATION_TOKEN = (process.env.MESSENGER_VALIDATION_TOKEN) ?
   (process.env.MESSENGER_VALIDATION_TOKEN) :
-  config.get('validationToken');
+  config.get('TaxiVer');
 
 // Generate a page access token for your page from the App Dashboard
 const PAGE_ACCESS_TOKEN = (process.env.MESSENGER_PAGE_ACCESS_TOKEN) ?
   (process.env.MESSENGER_PAGE_ACCESS_TOKEN) :
-  config.get('pageAccessToken');
+  config.get('EAAFbT06Si8QBAFVPODUOSFJx0DdgYaTYltRe5PFjgp4KsLUBCHFiUjbNnFE2bEaZBwNl8YL6LZCX9ZCNiDDC7NBRZCoDp6nzNvnsdP0TLZAkF272mMk52k7qwwsb0GJrhFfpAyMRAlgyZAXpkLW5mRQ3qGRaKYkr0OzkTbXmOnhwZDZD');
 
 // URL where the app is running (include protocol). Used to point to scripts and 
 // assets located at this address. 
